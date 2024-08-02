@@ -1060,18 +1060,11 @@
   <block id="bbef84b0a53276c7c512270e3dbf2029" category="paragraph">리소스 그룹에 제거하는 스토리지 VM에 상주하는 백업이 있는 경우 해당 리소스 그룹에 대한 후속 백업이 실패합니다.</block>
   <block id="a87f600185266e8baed2f9874a5a9772" category="list-text">스토리지 시스템 * 페이지에서 제거할 스토리지 VM을 선택한 다음 * 삭제 * 를 클릭합니다.</block>
   <block id="75e0ff3834a1232cc1921b91722f6f05" category="list-text">스토리지 시스템 제거 * 확인 상자에서 * 스토리지 시스템 삭제 * 확인란을 선택한 다음 * 예 * 를 클릭하여 확인합니다. * 참고: * ESXi 7.0U1 이상 릴리즈만 지원됩니다.</block>
-  <block id="d1bcb651c16c1e49822b4f7c61910214" category="paragraph"><block ref="882f890d3418627cf43cd6225ef7eb22" category="inline-link-macro-rx"></block>..</block>
-  <block id="15522b8dcb225880b816b8456110deaf" category="summary">SnapCenter VMware vSphere Client가 잘못 작동하기 시작하면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 VMware vSphere Client 서비스를 다시 시작합니다.</block>
-  <block id="fc5672573975422a722953bf5496e5ad" category="section-title">Linux vCenter에서 웹 클라이언트 서비스를 다시 시작합니다</block>
-  <block id="bbbb4a3d88d4a0dafc319898d6206ae7" category="paragraph">vCenter가 Linux 어플라이언스에 있는 경우 Linux 명령을 사용하여 SnapCenter VMware vSphere 클라이언트 서비스를 다시 시작해야 합니다.</block>
-  <block id="df005eed1212d84ddce99431a04fc779" category="paragraph">vCenter 6.5 이상을 실행해야 합니다.</block>
   <block id="d9ac8e6076d4e4d7529e26c9238771a4" category="list-text">SSH를 사용하여 vCenter Server Appliance에 루트로 로그인합니다.</block>
   <block id="263de88bd463a408f8eabe4c8a4ace37" category="list-text">다음 명령을 사용하여 어플라이언스 셸 또는 Bash Shell에 액세스합니다.</block>
   <block id="ad288d5d0843f98ebb574a6ae9d65a4e" category="paragraph"><block ref="2591c98b70119fe624898b1e424b5e91" prefix="" category="inline-code"></block></block>
   <block id="76acab39397c08b9a6f90dc3612ad3b4" category="list-text">다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 중지합니다.</block>
   <block id="fe179a5e6c3cce08786099d7d4f4c814" category="paragraph"><block ref="4ad331c0aae87e53252a4e9c0fb7b3fe" prefix="" category="inline-code"></block></block>
-  <block id="4c09019cb803ffc62d7d0666df0def34" category="list-text">다음 HTML5 명령을 사용하여 vCenter에서 오래된 scvm 패키지를 모두 삭제합니다.</block>
-  <block id="7f52ae2d13fc881eab436a11ad6556a4" category="paragraph"><block ref="ca3710e05c94c666b5609593ee562322" prefix="" category="inline-code"></block></block>
   <block id="9246d25288272bdfe6c58f34a564ec38" category="admonition">VASA 또는 vCenter 7.x 이상 패키지를 제거하지 마십시오.</block>
   <block id="1ee241c7544c04de9f1ca46058beb4cb" category="list-text">다음 HTML5 명령을 사용하여 웹 클라이언트 서비스를 시작합니다.</block>
   <block id="6b76a32b7668e5fed9b8e910943fdee7" category="paragraph"><block ref="bfbe7f4b006f6fcfc7bb66e075309067" prefix="" category="inline-code"></block></block>
@@ -1577,7 +1570,6 @@
   <block id="a98b46e8dc0787e4a139fb1be67e3938" category="paragraph">각 REST API 이름은 REST API가 처음 릴리스된 SnapCenter 버전 번호를 포함합니다. 예를 들어, REST API<block ref="00dc830fa803616a49708e2e3e3c8b5b" prefix=" " category="inline-code"></block> 는 SnapCenter 4.1에 처음 릴리즈되었습니다.</block>
   <block id="85505477b7b3ad4a3b0be0e4741456cf" category="paragraph">향후 릴리스의 REST API는 일반적으로 이전 버전과 호환되며 필요에 따라 새 기능을 수용할 수 있도록 수정됩니다.</block>
   <block id="0732e8e379c23dc5fb5e0055374a7f1d" category="summary">SnapCenter VMware vSphere Client가 잘못 작동하기 시작하면 브라우저 캐시를 지워야 할 수 있습니다. 문제가 지속되면 웹 클라이언트 서비스를 다시 시작합니다.</block>
-  <block id="ae6aa491e5b4d2d79971ced34f86c80e" category="section-title">Linux vCenter에서 VMware vSphere Client 서비스를 다시 시작합니다</block>
   <block id="e570bf7b85385c5bda85ef035051e28f" category="paragraph">vCenter 7.0U1 이상을 실행해야 합니다.</block>
   <block id="2ee1caebace3a32360ade0d209b1e8ac" category="list-text">다음 셸 명령을 사용하여 vCenter에서 오래된 HTML5 scvm 패키지를 모두 삭제합니다.</block>
   <block id="af6d7d31c35cf99b12c13a1c1f334d32" category="paragraph"><block ref="3d6deff69cb4148925c5d031dca2f3e7" prefix="" category="inline-code"></block></block>
@@ -2103,4 +2095,5 @@
   <block id="c257f5c852c12409e63afb17104f69c5" category="sidebar">REST API</block>
   <block id="a3d53cfe9124531cb5f9bbfefe704326" category="sidebar">REST API 워크플로우를 사용하여 기본 제공 일정을 수정합니다</block>
   <block id="3da6944b1baaec4beb70694ac307fd1f" category="sidebar">동일한 릴리즈의 새 패치로 업그레이드합니다</block>
+  <block id="b02541bab3f320c7517f41f638f6ef31" category="paragraph"><block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>..</block>
 </blocks>
