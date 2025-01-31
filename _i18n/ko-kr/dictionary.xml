@@ -2051,7 +2051,6 @@
   <block id="5a2083853297d8e177a0fe4d54c85aad" category="paragraph">이 작업은 기본 감사 로그 설정을 변경하는 데 도움이 됩니다.</block>
   <block id="bf59ac9161d0f4561a155103d8ea2d10" category="list-text">Audit Log Settings * 창에서 감사 로그 파일의 최대 수와 감사 로그 파일 크기 제한을 입력합니다.</block>
   <block id="f1505fcf11606ca7535d26bceed3763b" category="sidebar">VMware vSphere(SCV)용 SnapCenter 플러그인은 Linux 기반 가상 어플라이언스입니다. 독립 실행형으로서 VM, 데이터 저장소 및 VMDK에 대해 빠르고 공간 효율적이며 장애 발생 시 정합성이 보장되는 백업 및 복원 작업을 제공합니다. 또한 SnapCenter Server와 함께 작동하여 SnapCenter 애플리케이션별 플러그인을 위한 VMware 환경에서 애플리케이션 기반 백업 및 복구 작업을 지원합니다. 이 설명서 라이브러리에서는 VMware vSphere용 SnapCenter 5.0에 대해 설명합니다.</block>
-  <block id="8c3d0c00ea667e3e0723e5cdc6473a09" category="sidebar">VMware vSphere용 SnapCenter 플러그인 설명서</block>
   <block id="35b654fd14f12a33551c1993b5321fcb" category="sidebar">VMware vSphere(SCV)용 SnapCenter 플러그인은 Linux 기반 가상 어플라이언스입니다. 독립 실행형으로서 VM, 데이터 저장소 및 VMDK에 대해 빠르고 공간 효율적이며 장애 발생 시 정합성이 보장되는 백업 및 복원 작업을 제공합니다. 또한 SnapCenter Server와 함께 작동하여 SnapCenter 애플리케이션별 플러그인을 위한 VMware 환경에서 애플리케이션 기반 백업 및 복구 작업을 지원합니다.</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">릴리즈 노트</block>
@@ -2096,4 +2095,5 @@
   <block id="a3d53cfe9124531cb5f9bbfefe704326" category="sidebar">REST API 워크플로우를 사용하여 기본 제공 일정을 수정합니다</block>
   <block id="3da6944b1baaec4beb70694ac307fd1f" category="sidebar">동일한 릴리즈의 새 패치로 업그레이드합니다</block>
   <block id="b02541bab3f320c7517f41f638f6ef31" category="paragraph"><block ref="6f48ea8f284b5f5f2ad46612a3e37eec" category="inline-link-macro-rx"></block>..</block>
+  <block id="e2baf69e920d271345d54408c922dc4e" category="sidebar">VMware vSphere 5.0 설명서용 SnapCenter 플러그인</block>
 </blocks>
